@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">Praktikum6</string>
+    <string name="name">Nama</string>
+    <string name="description">Deskripsi</string>
+    <string name="tampil_list">Tampil List</string>
+    <string name="tampil_grid">Tampil Grid</string>
+    <string name="tampil_card_view">Tampil Card View</string>
+    <string name="todo">todo</string>
+
+    <string-array name="data_name">
+        <item>Wisata Pagubugan</item>
+        <item>The Village Purwokerto</item>
+        <item>Kebun Bunga Matahari Rempoah</item>
+        <item>Bukit Pandang Munggang</item>
+        <item>Sendang Bidadari </item>
+        <item>Bukit Watu Meja</item>
+        <item> Bukit Agaran</item>
+        <item>Hutan Pinus Limpakuwus</item>
+        <item>Bukit Tranggulasih</item>
+        <item>Puncak Dinar</item>
+        <item>Bukit Gadog</item>
+        <item> Curug Jenggala Kalipagu</item>
+        <item>Curug Lima</item>
+        <item>Curug Kedung Lesung</item>
+        <item>Curug Telu</item>
+        <item>Curug Nangga</item>
+        <item>Curug Cipendok</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa Anda merasakan betapa tenang dan nyamannya berada di tengah persawahan dan bermain air di sungai. Eduwisata yang berada di Desa Melung ini memiliki berbagai spot wisata menarik yang akan memanjakan Anda. Mulai dari trek jogging, outbond, camping ground, sawah pelangi, taman kelinci, berbagai spot foto keren dan juga Grujugan Bengkok.Di Grujugan Bengkok ini Anda bisa mandi sepuasnya dan airnya sangat jernih, lho! Selain itu lintasan grujugan ini juga panjang, melewati persawahan dan tidak dalam, sehingga aman buat si kecil. Selain itu ada juga wisata bercocok tanam bagi anak paud, TK maupun SD yang berkunjung. Dan yang terbaru ada kolam renang di tengah persawahan yang aman untuk anak-anak.</item>
+        <item>Berlokasi tak terlalu jauh dengan pusat kota Purwokerto, The Village hadir dengan gaya unik khas perkampungan Eropa. Bangunan tinggi besar menyerupai kastil dengan dinding bata langsung mencuri perhatian begitu melangkahkan kaki ke sini. Ada beragam aktivitas yang bisa Anda lakukan di sini: naik perahu mengitari kanal buatan di sekitar taman rekreasi, memberi makan aneka binatang (burung, kelinci, sapi, domba), menunggang kuda, foto-foto dengan kostum Belanda, dan masih banyak lagi!</item>
+        <item>Yang tertarik menikmati warna-warna cerah bunga matahari dan marigold, kebun bunga ini adalah spot yang tepat dikunjungi. Kamu dipersilakan berburu foto yang Instagenik, tapi jangan sampai merusak kebun bunganya, ya!</item>
+        <item>Tidak bisa dimungkiri, Bukit Pandang Munggang menjadi destinasi wisata di Banyumas yang harus kamu kunjungi jika ingin melihat keindahan alam dan lanskap yang keren dari kota ini. Tidak hanya itu saja, banyak spot berfoto kece yang bisa jadi pilihan background kamu, terutama saat malam hari!   </item>
+        <item>Ingin tahu seperti apa kolam mandinya para bidadari? Sendang Bidadari di seputaran wilayah Curug Telu setidaknya menggambarkan nuansa dan suasana kolam tersebut. View yang eksotik dengan atmosfer yang hening dijamin akan memesona kamu!</item>
+        <item>Bayangkan, dari destinasi wisata di Banyumas ini, kamu akan mendapati lukisan alam dalam bentuk 3D yang luar biasa! Perpaduan perbukitan yang hijau di kejauhan, aliran sungai dan langit biru sebagai latar, sungguh view yang istimewa!</item>
+        <item>Jogja memiliki Hutan Pinus Pengger yang begitu ngehits, sementara Banyumas memiliki Bukit Agaran yang tidak kalah menariknya. Tangan raksasa sebagai spot foto, dengan background alam yang keren, pun terdapat di sini, dan pastinya bisa menjadi salah satu alasan untuk datang ke sini.</item>
+        <item>Jika tertarik mengunjungi hutan pinus yang minim sentuhan manusia, Hutan Pinus Limpakuwus bisa menjadi alternatif yang pas. Suasananya masih alami, pun demikian dengan panoramanya yang asri. Yang tertarik camping di sini juga asyik, lho!</item>
+        <item>Salah satu destinasi wisata di Banyumas yang tidak boleh dilewatkan adalah Bukit Tranggulasih. Sempat ditutup untuk sementara waktu, spot wisata ini menawarkan tempat yang mengesankan untuk menikmati pesona alam Purwokerto.</item>
+        <item>Puncak Dinar mendapatkan popularitasnya saat Bukit Tranggulasi ditutup pada pertengahan tahun lalu. Kini, keduanya menjadi destinasi wisata di Banyumas yang ngehits karena daya tarik yang dimilikinya.</item>
+        <item>Penikmat selfie, Bukit Gadog bisa menjadi destinasi wisata di Purwokerto yang pas untuk dikunjungi. Meski sedikit menantang untuk didatangi, namun pesona alam yang kamu dapatkan di puncaknya akan membuat siapapun terkesima.</item>
+        <item>Nah, bagi yang ingin mendapatkan nuansa alam dengan atmosfer romantis, Curug Jenggala bisa menjadi jujukan yang pas. Air terjun alami dengan lingkungan sekitar yang hijau, plus spot foto yang romantis dijamin bakal memberikan kesan mendalam bagi semua orang.</item>
+        <item>Kamu akan mendapati air terjun dengan debit air yang cukup deras, dengan nuansa alami yang begitu kental dan atmosfer hijau yang menyegarkan di Curug Lima. Dijamin kamu akan terpesona dengan keindahannya.</item>
+        <item>Oke, di destinasi wisata di Banyumas ini, kamu bakal melihat air terjun dengan debit air yang deras, terutama di musim hujan. Yang menjadikannya istimewa adalah nuansa naturalnya, kealamian yang terjaga. Pastinya sangat mengesankan bagi para pecinta alam.</item>
+        <item>Dua kata di atas menjadi kesan yang muncul dari Curug Telu. Ketinggian ‘pancuran air’ yang ditampilkan, plus ‘cucuran’ yang elegan menegaskan itu semua. Selain itu, pesona alam di sekitarnya memberikan nilai tambah tersendiri untuk menyambangi destinasi wisata di Banyumas ini.</item>
+        <item>Tidak ada gambaran yang lebih baik untuk menunjukkan betapa istimewanya curug Nangga selain dengan gambar yang istimewa. Kamu bisa melihat sendiri kecantikannya di sini!</item>
+        <item>Bisa dikatakan curug ini menjadi salah satu destinasi wisata di Banyumas yang cukup ngehits. Bukan hanya karena atmosfernya yang masih alami, di mana jika beruntung kamu bisa menjumpai monyet ekor panjang atau elang jawa, tapi juga banyak spot foto yang Instagenik.</item>
+    </string-array>
+    <string-array name="data_photo">
+        <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/18-1-by-@miftakhulmukhasin-@hengki_pamungkas-740x294.jpg</item>
+        <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/21-2-by-@The-Village-Purwokerto-740x740.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502025050/1-1-Rempoah-By-instapurwokerto.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502020505/2-1-Munggang-By-fhm_atm.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502022323/3-1-SendangBidadari-By-asyrull.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502023434/4-1-BukitWatuMeja-By-ferdianh11man.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502024848/5-3-BukitAgaran.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2018/09/070709092121/5-1-Limpakuwus-By-fia_hartono.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502020303/7-1-BukitTranggulasih-By-instapurwokerto.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502021111/8-1-PuncakDinar-By-instapurwokerto.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502022424/9-1-BukitGadog-By-dwiecahyo.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502023333/10-1-CurugJenggala-By-vitongdwiputranto.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502024545/11-1-CurugLima-By-theguhwe.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502025656/12-1-CueugKedungLesung-By-instapurwokerto.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502020505/13-1-CurugTelu-By-hanifah.15.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502021515/14-1-CurugNangga-By-arief_kust.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502022222/15-1-CurugCipendoh-By-nh_anisaa.jpg</item>
+
+    </string-array>
+
+    <string-array name="data_lat">
+        <item>-7.333797</item>
+        <item>-7.374473</item>
+        <item>-7.365937272318903</item>
+        <item>-7.316911358053095</item>
+        <item>-7.318706624806991</item>
+        <item>-7.518693496942764</item>
+        <item>-7.339477071511765</item>
+        <item>-7.307389144225392</item>
+        <item>-7.335101609928172</item>
+        <item>-7.342957965192283</item>
+        <item>-7.3521681572384034</item>
+        <item>-7.308664878214912</item>
+        <item>-7.313697997680123</item>
+        <item>-7.335048491959548</item>
+        <item>-7.319608935463539</item>
+        <item>-7.367553629828749</item>
+        <item>-7.33686633390229</item>
+    </string-array>
+    <string-array name="data_lang">
+        <item>109.206959</item>
+        <item>109.240532</item>
+        <item>109.23437897903071</item>
+        <item>109.21935733909459</item>
+        <item>109.24168026793035</item>
+        <item>109.21451392560319</item>
+        <item>109.20784795443758</item>
+        <item>109.24379545443735</item>
+        <item>109.2004889525875</item>
+        <item>109.19115888142316</item>
+        <item>109.1765921121091</item>
+        <item>109.20879915443724</item>
+        <item>109.18363899491598</item>
+        <item>109.10884642375174</item>
+        <item>109.24195252560173</item>
+        <item>109.03652288142348</item>
+        <item>109.13651291025889</item>
+    </string-array>
+
+
+
+    <string name="title_activity_detail">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
