@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Praktikum6</string>
+    <string name="name">Nama</string>
+    <string name="description">Deskripsi</string>
+    <string name="tampil_list">Tampil List</string>
+    <string name="tampil_grid">Tampil Grid</string>
+    <string name="tampil_card_view">Tampil Card View</string>
+    <string name="todo">todo</string>
+
+    <string-array name="data_name">
+        <item>Wisata Pagubugan</item>
+        <item>The Village Purwokerto</item>
+        <item>Kebun Bunga Matahari Rempoah</item>
+        <item>Bukit Pandang Munggang</item>
+        <item>Sendang Bidadari </item>
+        <item>Bukit Watu Meja</item>
+        <item> Bukit Agaran</item>
+        <item>Hutan Pinus Limpakuwus</item>
+        <item>Bukit Tranggulasih</item>
+        <item>Puncak Dinar</item>
+        <item>Bukit Gadog</item>
+        <item> Curug Jenggala Kalipagu</item>
+        <item>Curug Lima</item>
+        <item>Curug Kedung Lesung</item>
+        <item>Curug Telu</item>
+        <item>Curug Nangga</item>
+        <item>Curug Cipendok</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa Anda merasakan betapa tenang dan nyamannya berada di tengah persawahan dan bermain air di sungai. Eduwisata yang berada di Desa Melung ini memiliki berbagai spot wisata menarik yang akan memanjakan Anda. Mulai dari trek jogging, outbond, camping ground, sawah pelangi, taman kelinci, berbagai spot foto keren dan juga Grujugan Bengkok.Di Grujugan Bengkok ini Anda bisa mandi sepuasnya dan airnya sangat jernih, lho! Selain itu lintasan grujugan ini juga panjang, melewati persawahan dan tidak dalam, sehingga aman buat si kecil. Selain itu ada juga wisata bercocok tanam bagi anak paud, TK maupun SD yang berkunjung. Dan yang terbaru ada kolam renang di tengah persawahan yang aman untuk anak-anak.</item>
+        <item>Berlokasi tak terlalu jauh dengan pusat kota Purwokerto, The Village hadir dengan gaya unik khas perkampungan Eropa. Bangunan tinggi besar menyerupai kastil dengan dinding bata langsung mencuri perhatian begitu melangkahkan kaki ke sini. Ada beragam aktivitas yang bisa Anda lakukan di sini: naik perahu mengitari kanal buatan di sekitar taman rekreasi, memberi makan aneka binatang (burung, kelinci, sapi, domba), menunggang kuda, foto-foto dengan kostum Belanda, dan masih banyak lagi!</item>
+        <item>Yang tertarik menikmati warna-warna cerah bunga matahari dan marigold, kebun bunga ini adalah spot yang tepat dikunjungi. Kamu dipersilakan berburu foto yang Instagenik, tapi jangan sampai merusak kebun bunganya, ya!</item>
+        <item>Tidak bisa dimungkiri, Bukit Pandang Munggang menjadi destinasi wisata di Banyumas yang harus kamu kunjungi jika ingin melihat keindahan alam dan lanskap yang keren dari kota ini. Tidak hanya itu saja, banyak spot berfoto kece yang bisa jadi pilihan background kamu, terutama saat malam hari!   </item>
+        <item>Ingin tahu seperti apa kolam mandinya para bidadari? Sendang Bidadari di seputaran wilayah Curug Telu setidaknya menggambarkan nuansa dan suasana kolam tersebut. View yang eksotik dengan atmosfer yang hening dijamin akan memesona kamu!</item>
+        <item>Bayangkan, dari destinasi wisata di Banyumas ini, kamu akan mendapati lukisan alam dalam bentuk 3D yang luar biasa! Perpaduan perbukitan yang hijau di kejauhan, aliran sungai dan langit biru sebagai latar, sungguh view yang istimewa!</item>
+        <item>Jogja memiliki Hutan Pinus Pengger yang begitu ngehits, sementara Banyumas memiliki Bukit Agaran yang tidak kalah menariknya. Tangan raksasa sebagai spot foto, dengan background alam yang keren, pun terdapat di sini, dan pastinya bisa menjadi salah satu alasan untuk datang ke sini.</item>
+        <item>Jika tertarik mengunjungi hutan pinus yang minim sentuhan manusia, Hutan Pinus Limpakuwus bisa menjadi alternatif yang pas. Suasananya masih alami, pun demikian dengan panoramanya yang asri. Yang tertarik camping di sini juga asyik, lho!</item>
+        <item>Salah satu destinasi wisata di Banyumas yang tidak boleh dilewatkan adalah Bukit Tranggulasih. Sempat ditutup untuk sementara waktu, spot wisata ini menawarkan tempat yang mengesankan untuk menikmati pesona alam Purwokerto.</item>
+        <item>Puncak Dinar mendapatkan popularitasnya saat Bukit Tranggulasi ditutup pada pertengahan tahun lalu. Kini, keduanya menjadi destinasi wisata di Banyumas yang ngehits karena daya tarik yang dimilikinya.</item>
+        <item>Penikmat selfie, Bukit Gadog bisa menjadi destinasi wisata di Purwokerto yang pas untuk dikunjungi. Meski sedikit menantang untuk didatangi, namun pesona alam yang kamu dapatkan di puncaknya akan membuat siapapun terkesima.</item>
+        <item>Nah, bagi yang ingin mendapatkan nuansa alam dengan atmosfer romantis, Curug Jenggala bisa menjadi jujukan yang pas. Air terjun alami dengan lingkungan sekitar yang hijau, plus spot foto yang romantis dijamin bakal memberikan kesan mendalam bagi semua orang.</item>
+        <item>Kamu akan mendapati air terjun dengan debit air yang cukup deras, dengan nuansa alami yang begitu kental dan atmosfer hijau yang menyegarkan di Curug Lima. Dijamin kamu akan terpesona dengan keindahannya.</item>
+        <item>Oke, di destinasi wisata di Banyumas ini, kamu bakal melihat air terjun dengan debit air yang deras, terutama di musim hujan. Yang menjadikannya istimewa adalah nuansa naturalnya, kealamian yang terjaga. Pastinya sangat mengesankan bagi para pecinta alam.</item>
+        <item>Dua kata di atas menjadi kesan yang muncul dari Curug Telu. Ketinggian ‘pancuran air’ yang ditampilkan, plus ‘cucuran’ yang elegan menegaskan itu semua. Selain itu, pesona alam di sekitarnya memberikan nilai tambah tersendiri untuk menyambangi destinasi wisata di Banyumas ini.</item>
+        <item>Tidak ada gambaran yang lebih baik untuk menunjukkan betapa istimewanya curug Nangga selain dengan gambar yang istimewa. Kamu bisa melihat sendiri kecantikannya di sini!</item>
+        <item>Bisa dikatakan curug ini menjadi salah satu destinasi wisata di Banyumas yang cukup ngehits. Bukan hanya karena atmosfernya yang masih alami, di mana jika beruntung kamu bisa menjumpai monyet ekor panjang atau elang jawa, tapi juga banyak spot foto yang Instagenik.</item>
+    </string-array>
+    <string-array name="data_photo">
+        <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/18-1-by-@miftakhulmukhasin-@hengki_pamungkas-740x294.jpg</item>
+        <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/21-2-by-@The-Village-Purwokerto-740x740.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502025050/1-1-Rempoah-By-instapurwokerto.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502020505/2-1-Munggang-By-fhm_atm.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502022323/3-1-SendangBidadari-By-asyrull.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502023434/4-1-BukitWatuMeja-By-ferdianh11man.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502024848/5-3-BukitAgaran.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2018/09/070709092121/5-1-Limpakuwus-By-fia_hartono.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502020303/7-1-BukitTranggulasih-By-instapurwokerto.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502021111/8-1-PuncakDinar-By-instapurwokerto.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502022424/9-1-BukitGadog-By-dwiecahyo.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502023333/10-1-CurugJenggala-By-vitongdwiputranto.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502024545/11-1-CurugLima-By-theguhwe.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502025656/12-1-CueugKedungLesung-By-instapurwokerto.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502020505/13-1-CurugTelu-By-hanifah.15.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502021515/14-1-CurugNangga-By-arief_kust.jpg</item>
+        <item>https://sgp1.digitaloceanspaces.com/tz-mag-id/wp-content/uploads/2019/02/050502022222/15-1-CurugCipendoh-By-nh_anisaa.jpg</item>
+
+    </string-array>
+
+</resources>
