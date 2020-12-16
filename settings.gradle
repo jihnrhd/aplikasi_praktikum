@@ -1,3 +1,5 @@
+include ':praktikum6'
+include ':practice5activity'
 include ':lifecycleapp'
 include ':app'
 rootProject.name = "MyProjectPBB"
