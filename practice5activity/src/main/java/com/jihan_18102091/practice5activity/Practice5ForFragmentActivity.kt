@@ -12,7 +12,6 @@ class Practice5ForFragmentActivity : AppCompatActivity() {
         val mFirstFragment = Practice5FirstFragment()
         val fragment = mFragmentManager.findFragmentByTag(Practice5FirstFragment::class.java.simpleName)
         if (fragment !is Practice5FirstFragment){
-            Log.d("MyFlexibleFragment", "Fragment Name :" + Practice5FirstFragment::class.java.simpleName)
             mFragmentManager
                 .beginTransaction()
                 .add(R.id.frame_container, mFirstFragment, Practice5FirstFragment::class.java.simpleName)
