@@ -169,4 +169,8 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
         val alertDialog = alertDialogBuilder.create()
         alertDialog.show()
     }
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
+    }
 }
