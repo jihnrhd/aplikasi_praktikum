@@ -7,7 +7,9 @@ import kotlinx.android.parcel.Parcelize
 data class Quote(
     var id: Int = 0,
     var title: String? = null,
+    var nama: String? = null,
     var description: String? = null,
     var category: String? = null,
+    var tag: String? = null,
     var date: String? = null
 ) : Parcelable

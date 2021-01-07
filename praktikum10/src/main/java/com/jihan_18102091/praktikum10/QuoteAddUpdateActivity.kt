@@ -25,12 +25,14 @@ import com.jihan_18102091.praktikum10.helper.RESULT_DELETE
 import com.jihan_18102091.praktikum10.helper.RESULT_UPDATE
 import com.jihan_18102091.praktikum10.helper.categoryList
 import com.jihan_18102091.praktikum10.helper.getCurrentDate
+import com.jihan_18102091.praktikum10.helper.tagList
 
 class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
     private var isEdit = false
     private var quote: Quote? = null
     private var position: Int = 0
     private var category: String = "0"
+    private var tag: String = "0"
     private lateinit var quoteHelper: QuoteHelper
     private lateinit var binding: ActivityQuoteAddUpdateBinding
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,6 +47,20 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
                 parent: AdapterView<*>, view: View, position: Int, id: Long
             ) {
                 category = position.toString()
+            }
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                Toast.makeText(this@QuoteAddUpdateActivity, "array terpilih = " +
+                        position.toString(), Toast.LENGTH_SHORT).show()
+            }
+        }
+        var spinnerAdapterTag= ArrayAdapter(this, android.R.layout.simple_list_item_1,tagList)
+        binding.edtTag.adapter=spinnerAdapterTag
+        binding.edtTag.onItemSelectedListener = object : AdapterView.OnItemSelectedListener
+        {
+            override fun onItemSelected(
+                parent: AdapterView<*>, view: View, position: Int, id: Long
+            ) {
+                tag = position.toString()
             }
             override fun onNothingSelected(parent: AdapterView<*>?) {
                 Toast.makeText(this@QuoteAddUpdateActivity, "array terpilih = " +
@@ -67,8 +83,10 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
             btnTitle = "Update"
             quote?.let {
                 binding.edtTitle.setText(it.title)
+                binding.edtNama.setText(it.nama)
                 binding.edtDescription.setText(it.description)
                 binding.edtCategory.setSelection(it.category!!.toInt())
+                binding.edtTag.setSelection(it.tag!!.toInt())
             }!!
         } else {
             actionBarTitle = "Tambah"
@@ -83,21 +101,26 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(view: View) {
         if (view.id == R.id.btn_submit) {
             val title = binding.edtTitle.text.toString().trim()
+            val nama = binding.edtNama.text.toString().trim()
             val description = binding.edtDescription.text.toString().trim()
-            if (title.isEmpty()) {
+            if (title.isEmpty() || nama.isEmpty()) {
                 binding.edtTitle.error = "Field can not be blank"
                 return
             }
             quote?.title = title
+            quote?.nama = nama
             quote?.description = description
             quote?.category = category
+            quote?.tag = tag
             val intent = Intent()
             intent.putExtra(EXTRA_QUOTE, quote)
             intent.putExtra(EXTRA_POSITION, position)
             val values = ContentValues()
             values.put(DatabaseContract.QuoteColumns.TITLE, title)
+            values.put(DatabaseContract.QuoteColumns.NAMA, nama)
             values.put(DatabaseContract.QuoteColumns.DESCRIPTION, description)
             values.put(DatabaseContract.QuoteColumns.CATEGORY, category)
+            values.put(DatabaseContract.QuoteColumns.TAG, tag)
             if (isEdit) {
                 val result = quoteHelper.update(quote?.id.toString(),
                     values).toLong()

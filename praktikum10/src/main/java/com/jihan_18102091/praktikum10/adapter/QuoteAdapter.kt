@@ -14,6 +14,7 @@ import com.jihan_18102091.praktikum10.helper.EXTRA_POSITION
 import com.jihan_18102091.praktikum10.helper.EXTRA_QUOTE
 import com.jihan_18102091.praktikum10.helper.REQUEST_UPDATE
 import com.jihan_18102091.praktikum10.helper.categoryList
+import com.jihan_18102091.praktikum10.helper.tagList
 
 class QuoteAdapter(private val activity: Activity):
     RecyclerView.Adapter<QuoteAdapter.QuoteViewHolder>() {
@@ -33,7 +34,9 @@ class QuoteAdapter(private val activity: Activity):
         private val binding = ItemQuoteBinding.bind(itemView)
         fun bind(quote: Quote, position: Int) {
             binding.tvItemTitle.text = quote.title
+            binding.tvItemNama.text = quote.nama
             binding.tvItemCategory.text = categoryList[quote.category!!.toInt()]
+            binding.tvItemTag.text = tagList[quote.tag!!.toInt()]
             binding.tvItemDate.text = quote.date
             binding.tvItemDescription.text = quote.description
             binding.cvItemQuote.setOnClickListener{
