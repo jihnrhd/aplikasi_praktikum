@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.jihan_18102091.praktikum9",
+  "applicationId": "com.jihan_18102091.praktikum10",
   "variantName": "processReleaseResources",
   "elements": [
     {
@@ -12,7 +12,7 @@
       "filters": [],
       "versionCode": 1,
       "versionName": "1.0",
-      "outputFile": "praktikum9-release.apk"
+      "outputFile": "praktikum10-release.apk"
     }
   ]
 }
