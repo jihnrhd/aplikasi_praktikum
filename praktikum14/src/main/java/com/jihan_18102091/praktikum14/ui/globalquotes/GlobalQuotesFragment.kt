@@ -45,7 +45,7 @@ class GlobalQuotesFragment : Fragment(), MainView {
         presenter.getMyQuotes(token.token)
         swiperefresh.onRefresh {
             progressbar.visibility = View.INVISIBLE
-            presenter.getClassQuotes(token.token)
+            presenter.getAllQuotes(token.token.toString())
         }
     }
     override fun onResume() {
