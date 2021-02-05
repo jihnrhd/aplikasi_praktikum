@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_my_quotes"
-        android:name="com.jihan_18102091.praktikum14.ui.myquotes.MylQuotesFragment"
+        android:name="com.jihan_18102091.praktikum14.ui.myquotes.MyQuotesFragment"
         android:label="@string/title_my_quotes"
         tools:layout="@layout/fragment_my_quotes" />
 
